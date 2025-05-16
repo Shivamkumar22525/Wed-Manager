@@ -1,0 +1,16 @@
+.sticky-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensure it stays on top of other content */
+    background-color: white; /* Make sure the navbar has a background */
+    box-shadow: 0 4px 2px -2px gray; /* Optional: add shadow for effect */
+  }
+  
+.h1{
+    margin-left: 2em;
+    font-weight: 800;
+}
+.navbar-brand{
+    text-decoration: none;
+}
